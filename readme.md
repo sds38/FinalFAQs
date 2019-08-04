@@ -1,3 +1,5 @@
+Note: Videos followed, so committed everytime professor committed, remembered to add my own when I could
+
 Part 1 - 
 You need to submit a github repo, a screenshot(s) 
 of your tests, and a link to the project working 
