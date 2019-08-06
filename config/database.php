@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pg-heroku'),
+    'default' => env('DB_CONNECTION', 'sqlite'),
 
     /*
     |--------------------------------------------------------------------------
@@ -35,8 +35,8 @@ return [
     'connections' => [
 
         'sqlite' => [
-            'driver'   => 'sqlite',
-            'database' => storage_path('database.sqlite'),
+            'driver' => 'sqlite',
+            'database' => dirname(__DIR__).'/database/database.sqlite',
             'prefix'   => '',
         ],
 
